@@ -1,16 +1,16 @@
 module.exports = {
   title: 'My Site',
   tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://Labrador-org.github.io',
+  baseUrl: '/labrador-website/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Labrador-org', // Usually your GitHub org/user name.
+  projectName: 'labrador-website', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Labrador',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -23,6 +23,7 @@ module.exports = {
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'blog', label: 'Papers + Notes', position: 'left'},
         {
           href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',

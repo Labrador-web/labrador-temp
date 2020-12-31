@@ -8,17 +8,16 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
+    title: 'Labrador feature 1',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Labrador was designed for researchers.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Labrador feature 2',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>

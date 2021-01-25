@@ -8,34 +8,73 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Labrador feature 1',
+    title: 'For readers',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Labrador was designed for researchers.
+        Ever wished all research papers were annotated? 
+        Ever wanted a simple explanation for these lines so you could replicate this experiment more easily?
+        Or simply wondered how the authors came up with this idea and went about it? 
+        Welcome to Labrador, the one-stop solution to access authors’ notes to their research papers, at the click of a button.
+            
+        <div className={styles.buttons}>
+            <Link
+              className={clsx(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )}
+              //to={useBaseUrl('src/pages/testpage.md')}>
+              to={('Find_annotations')}>
+              Find Annotations
+            </Link>
+          </div>
+        {/* <Link
+              className={clsx(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )}
+              //to={useBaseUrl('src/pages/testpage.md')}>
+              to={('research_notes')}>
+              Test button
+            </Link> */}
       </>
     ),
   },
   {
-    title: 'Labrador feature 2',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: '',
+    imageUrl: '',
     description: (
       <>
-        Labrador lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        
+
+
       </>
     ),
   },
-  // {
-  //   title: 'Powered by React',
-  //   imageUrl: 'img/undraw_docusaurus_react.svg',
-  //   description: (
-  //     <>
-  //       Extend or customize your website layout by reusing React. Docusaurus can
-  //       be extended while reusing the same header and footer.
-  //     </>
-  //   ),
-  // },
+  {
+    title: 'For authors',
+    imageUrl: 'img/undraw_docusaurus_react.svg',
+    description: (
+      <>
+        Looking to better clarify parts of your research paper? 
+        Provide supplementary information or experiments that couldn’t be added? Or just looking to describe the idea behind this piece of research? 
+        Just make a PDF, visit Labrador, hit ‘Upload’, and your annotations are available to all those who need them.
+        <div className={styles.buttons}>
+            <Link
+              className={clsx(
+                'button button--outline button--secondary button--lg',
+                styles.getStarted,
+              )}
+              //to={useBaseUrl('src/pages/testpage.md')}>
+              to={('Submit')}>
+              Submit Annotations
+            </Link>
+          </div>
+      </>
+      
+      
+    ),
+  },
 ];
 
 function Feature({imageUrl, title, description}) {
@@ -71,8 +110,8 @@ function Home() {
                 styles.getStarted,
               )}
               //to={useBaseUrl('src/pages/testpage.md')}>
-              to={('research_notes')}>
-              Find the annotations and explanations behind any research paper, provided to you, by the authors themselves
+              to={('Find_annotations')}>
+              Find annotations and explanations behind any research paper, provided to you, by the authors themselves
             </Link>
           </div>
         </div>

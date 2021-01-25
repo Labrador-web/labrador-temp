@@ -1,6 +1,6 @@
 module.exports = {
   title: 'Labrador',
-  tagline: 'Do great science. Together',
+  tagline: 'Do great science. Together.',
   url: 'https://Labrador-org.github.io',
   baseUrl: '/labrador-website/',
   onBrokenLinks: 'throw',
@@ -17,17 +17,23 @@ module.exports = {
       },
       items: [
         {
-          to: 'research_notes',
+          to: 'Find_annotations',
           activeBasePath: 'testpage',
-          label: 'Research Papers',
+          label: 'Find Annotations',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/Labrador-org',
-          label: 'GitHub',
-          position: 'right',
-        },
+          to: 'Submit',
+          activeBasePath: 'testpage',
+          label: 'Submit Annotations',
+          position: 'left',
+        }
+        // {to: 'blog', label: 'Blog', position: 'left'},
+        // {
+        //   href: 'https://github.com/Labrador-org',
+        //   label: 'GitHub',
+        //   position: 'right',
+        // },
       ],
     },
     footer: {
@@ -50,8 +56,8 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Add papers',
-              href: 'mailto:shauwnak.joshi@gmail.com',
+              label: 'Contact Us',
+              href: 'mailto:urvashi.ctv@gmail.com',
             },
             // {
             //   label: 'Discord',

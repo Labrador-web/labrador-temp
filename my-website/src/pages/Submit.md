@@ -12,5 +12,5 @@ hide_table_of_contents: true
 * Ramble about your idea, your journey, the concepts behind the project, or just thoughts, because the research paper wouldn’t let you ramble.  
   
 # To submit annotations, please contact:
-## *Urvashi Chitnavis, Senior year student, IISER~Kolkata*
+## *Urvashi Chitnavis, Founder ~ Labrador Org*
 >> ### [*Click here to submit*](mailto:urvashi.ctv@gmail.com)

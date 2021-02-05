@@ -8,6 +8,7 @@ import styles from './styles.module.css';
 
 const features = [
   {
+    <p align="center">
     title: 'For readers',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
@@ -16,7 +17,7 @@ const features = [
         Ever wanted a simple explanation for these lines so you could replicate this experiment more easily?
         Or simply wondered how the authors came up with this idea and went about it? 
         Welcome to Labrador, the one-stop solution to access authors’ notes to their research papers, at the click of a button.
-            
+     </p>   
         <div className={styles.buttons}>
             <Link
               className={clsx(
@@ -52,6 +53,7 @@ const features = [
     ),
   },
   {
+    <p align="center">
     title: 'For authors',
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
@@ -59,6 +61,8 @@ const features = [
         Looking to better clarify parts of your research paper? 
         Provide supplementary information or experiments that couldn’t be added? Or just looking to describe the idea behind this piece of research? 
         Just make a PDF, visit Labrador, hit ‘Upload’, and your annotations are available to all those who need them.
+     </p> 
+  
         <div className={styles.buttons}>
             <Link
               className={clsx(

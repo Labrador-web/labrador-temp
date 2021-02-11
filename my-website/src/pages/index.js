@@ -13,8 +13,8 @@ const features = [
     description: (
       <>
         Ever wished all research papers were annotated? 
-        Ever wanted a simple explanation for these lines so you could replicate this experiment more easily?
-        Or simply wondered how the authors came up with this idea and went about it? 
+        Ever wanted someone to explain how you could replicate an experiment more easily?
+        Or simply wondered how the authors came up with the idea and went about it? 
         Welcome to Labrador, the one-stop solution to access authors’ notes to their research papers, at the click of a button.
             
         <div className={styles.buttons}>
